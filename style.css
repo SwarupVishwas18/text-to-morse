@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: 'netflix';
+    src: url('./bebas-neue/BebasNeue.otf');
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #002b36;
+    color: #fdf6e3;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+input:focus{
+    outline-style: none;
+}
+
+.form input{
+    background-color: transparent;
+    width: 40rem;
+    border: #fdf6e3 2px solid;
+    color: #fdf6e3;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+}
+
+button{
+    padding: .5rem 1rem;
+    background-color: #657b83;
+    border: none;
+    font-weight: 400;
+    color: #002b36;
+    transition: all 200ms ease-in-out;
+}
+
+button:hover{
+    opacity: .5;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'netflix';
+    letter-spacing: 7px;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'netflix';
+    letter-spacing: 7px;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-family: 'netflix';
+    letter-spacing: 7px;
+}
+
+.status{
+    font-size: 1.7rem;
+}
+
+
+@media screen and (max-width:700px) {
+    .form input{
+        width: 20rem;
+    }
+}
+
+#sec{
+    background-color: #fdf6e3;
+    color: #002b36;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    display: none;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+    opacity: 0.5;
+
+}
+
+a:hover{
+    opacity: 1;
+}
+
+#ott{
+    background-color: rgba(128, 128, 128, 0.616);
+    color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    display: none;
+    position:fixed;
+    /* position: relative; */
+    top: 0;
+    width: 100%;
+}
