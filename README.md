@@ -1,6 +1,6 @@
 # Convert Text Into Morse Code
 
-[Check Live](https://swarupvishwas18.github.io/fun-with-js/convert-to-morse/)
+[Check Live](https://swarupvishwas18.github.io/text-to-morse/)
 
 ## Output
 
